@@ -1,0 +1,109 @@
+
+
+:root {
+    --primary-color: #cef1e9;
+    --primary-lack: #070706;
+}
+
+nav {
+    background-color: var(--primary-color);
+
+}
+
+nav div {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight:bold;
+}
+
+
+body {
+    font-family: "OctemberScript";
+    font-size: large;
+    margin: 0px;
+    background-color: var(--primary-color);
+   
+
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--primary-color);
+    /* padding: 3rem; */
+    margin-bottom: 0px;
+
+    /* border-top-left-radius: 4rem; */
+}
+
+footer p {
+    display:block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    margin-top: 0rem;
+    font-size :1rem;
+
+}
+
+textarea {
+    background-color:rgb(216, 202, 200);
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    width: 35%;
+    max-height: 20vh;
+    min-height: 25vh;
+    font-family: inherit;
+    font-size: 15px;   
+}
+
+#output {
+    display: block;
+    margin: auto;
+    background-color:rgb(216, 202, 200);
+    border-radius: 1rem;
+    border: 2px solid black;
+    min-height: 20vh;
+    max-height: 30vh;
+    width: 35%;
+    font-family: "OctemberScript";
+    font-size: 20px;
+    margin-top:20px;
+
+
+}
+
+button:hover {
+    background-color:var(--primary-lack);
+    color: var(--primary-color);
+}
+
+button {
+    margin-top: -60px;
+    background-color: transparent;
+    padding: 1rem 1rem;
+    font-family: "OctemberScript";
+    font-size: 15px;
+    color: hsl(60, 8%, 3%);
+    border-radius: 1rem;
+    display: block;
+    margin:auto;
+    border:2 px solid #070706;
+    /* margin-bottom: px;   */
+
+
+}
+
+main div {
+    position: relative;
+    left: 22rem;
+    font-size: 0px;    
+}
+footer div{
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;    
+    font-size: 35px;
+}
