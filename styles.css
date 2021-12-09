@@ -7,7 +7,6 @@
 
 nav {
     background-color: var(--primary-color);
-
 }
 
 nav div {
@@ -23,17 +22,12 @@ body {
     font-size: large;
     margin: 0px;
     background-color: var(--primary-color);
-   
-
 }
 
 h1 {
     text-align: center;
     background-color: var(--primary-color);
-    /* padding: 3rem; */
     margin-bottom: 0px;
-
-    /* border-top-left-radius: 4rem; */
 }
 
 footer p {
@@ -71,8 +65,6 @@ textarea {
     font-family: "OctemberScript";
     font-size: 20px;
     margin-top:20px;
-
-
 }
 
 button:hover {
@@ -91,9 +83,6 @@ button {
     display: block;
     margin:auto;
     border:2 px solid #070706;
-    /* margin-bottom: px;   */
-
-
 }
 
 main div {
