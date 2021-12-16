@@ -1,3 +1,4 @@
+
 var buttentranslator = document.querySelector("#butn-translate");
 var textinput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output")
@@ -23,6 +24,3 @@ function clickEventHandler() {
             .catch(errorHandler)
         };
     buttentranslator.addEventListener("click", clickEventHandler);
-
-
-
